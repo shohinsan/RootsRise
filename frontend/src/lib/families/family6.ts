@@ -14,7 +14,7 @@ export const family6: Base[] = [
 	},
 	{
 		id: '6B',
-		name: 'Farukh Abdulhamidov',
+		name: 'Farukh Muminov',
 		dependant: '6A',
 		information: {
 			birth: '2001'
@@ -25,7 +25,7 @@ export const family6: Base[] = [
 	},
 	{
 		id: '6C',
-		name: 'Maryam Abdulhamidov',
+		name: 'Maryam Muminova',
 		dependant: '6A',
 		information: {
 			birth: '2013'
@@ -36,7 +36,7 @@ export const family6: Base[] = [
 	},
 	{
 		id: '6D',
-		name: 'Dovud Abdulkhamidov',
+		name: 'Dovud Muminov',
 		dependant: '6A',
 		information: {
 			birth: '2020'
