@@ -1,6 +1,6 @@
 import type { Base } from '$customTypes';
 
-export const addedNew = (
+const addedNew = (
 	data: Base[],
 	id: string | undefined = undefined,
 	type: string = 'dependant'
@@ -24,3 +24,5 @@ export const addedNew = (
 
 	return result;
 };
+
+export default { addedNew };

@@ -7,7 +7,6 @@ declare global {
 			errorId?: string;
 		}
 		interface Locals {
-			user: Partial<Base> | null;
 			locale?: string;
 		}
 

@@ -1,7 +1,7 @@
 import type { Base } from '$customTypes';
 import { Icons } from '$assets';
 
-export const family1: Base[] = [
+const family1: Base[] = [
 	{
 		id: '1A',
 		name: 'Sharifjon Abdulkhamidov',
@@ -83,3 +83,5 @@ export const family1: Base[] = [
 		}
 	}
 ];
+
+export default family1;

@@ -1,6 +1,6 @@
 import type { Base } from '$customTypes';
 
-export const family5: Base[] = [
+const family5: Base[] = [
   {
     id: '5A',
     name: 'Nasiba Abdulhamidova',
@@ -36,3 +36,5 @@ export const family5: Base[] = [
   },
   
 ];
+
+export default family5;

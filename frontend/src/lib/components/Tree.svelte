@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Cell from '$components//Cell.svelte';
+	import { Cell } from '$components';
 	import type { Base } from '$customTypes';
 	import { info } from '$stores';
 

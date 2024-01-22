@@ -9,14 +9,12 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$components: 'src/lib/components',
-			$action: 'src/lib/action',
+			$lib: 'src/lib',
 			$stores: 'src/lib/stores',
 			$customTypes: 'src/app.d.ts',
-			$helpers: 'src/helpers',
 			$assets: 'src/lib/assets',
-			$fonts: 'src/lib/fonts',
+			$family: 'src/lib/families',
 			$styles: 'src/styles',
-			$blog: 'src/posts',
 		},
 	},
 };

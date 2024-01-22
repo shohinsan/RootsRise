@@ -2,10 +2,6 @@
 	import type { Base } from '$customTypes';
 	export let members: Base[] = [];
 	export const child: boolean = false;
-
-	console.log('child', child);
-
-	$: console.log('members', members);
 </script>
 
 <ul class={$$props.class}>

@@ -33,6 +33,10 @@
 	{/each}
 </div>
 
+<footer>
+	<p>Проект создан для оцифровки и систематизации информации о родственниках.</p>
+</footer>
+
 <style>
 	div {
 		z-index: 99;
@@ -79,5 +83,13 @@
 		width: 10em;
 		height: 10em;
 		border-radius: 1rem;
+	}
+
+	footer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 0.8em;
+		color: var(--color-text);
 	}
 </style>

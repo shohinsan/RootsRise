@@ -5,9 +5,10 @@
 	import { seed } from '$lib';
 	import { utils } from '$lib';
 
-	const abdulkhamidov: Base[] = seed.allAbdulkhamidov();
-	
-	dataset.set(utils.addedNew(abdulkhamidov));
+	const fam2: Base[] = seed.allSharipov();
+	const fams: Base[] = [...fam2];
+
+	dataset.set(utils.addedNew(fams));
 
 	let tab: Base | undefined;
 

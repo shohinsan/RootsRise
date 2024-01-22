@@ -1,10 +1,21 @@
 import type { Base } from '$customTypes';
 
-export const family3: Base[] = [
+const family2: Base[] = [
 	{
-		id: '3A',
-		name: 'Sharifa Abdulkhamidova',
-		dependant: '1D',
+		id: '2A',
+		name: 'Nasiba Abdulkhamidov',
+		dependant: '1C',
+		information: {
+			birth: '1967'
+		},
+		description: {
+			details: ['A short description', 'Another description']
+		}
+	},
+	{
+		id: '2B',
+		name: 'Sokhib Abdulkhamidov',
+		dependant: '2A',
 		information: {
 			birth: '1988'
 		},
@@ -13,20 +24,9 @@ export const family3: Base[] = [
 		}
 	},
 	{
-		id: '3B',
-		name: 'Abdulhamid Abdulkhamidov',
-		dependant: '3A',
-		information: {
-			birth: '1988'
-		},
-		description: {
-			details: ['A short description', 'Another description']
-		}
-	},
-	{
-		id: '3C',
-		name: 'Shukrona Abdulkhamidov',
-		dependant: '3A',
+		id: '2C',
+		name: 'Shokhrukh Abdulkhamidov',
+		dependant: '2A',
 		information: {
 			birth: '1991'
 		},
@@ -35,9 +35,9 @@ export const family3: Base[] = [
 		}
 	},
 	{
-		id: '3D',
-		name: 'Sarvar Abdulkhamidov',
-		dependant: '3A',
+		id: '2D',
+		name: 'Shohin Abdulkhamidov',
+		dependant: '2A',
 		information: {
 			birth: '1997'
 		},
@@ -46,3 +46,5 @@ export const family3: Base[] = [
 		}
 	}
 ];
+
+export default family2;
