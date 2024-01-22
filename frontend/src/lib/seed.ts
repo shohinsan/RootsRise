@@ -1,40 +1,34 @@
 import type { Base } from '$customTypes';
-import {
-	family1,
-	family2,
-	family3,
-	family4,
-	family5,
-	family6,
-	family7,
-	family8,
-	family9,
-	family10,
-	family11
-} from '$family/abdulkhamidov';
-import { family1a, family2a } from '$family/sharipov';
+import { a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11 } from '$family/abdulkhamidov';
+import { b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15 } from '$family/khamidov';
+import { c1, c2, c3, c4, c5, c6, c7, c8, c9 } from '$family/sharipov';
 
 const allAbdulkhamidov = (): Base[] => {
-	const abdulkhamidov: Base[] = [
-		...family1,
-		...family2,
-		...family3,
-		...family4,
-		...family5,
-		...family6,
-		...family7,
-		...family8,
-		...family9,
-		...family10,
-		...family11
-	];
+	return [...a1, ...a2, ...a3, ...a4, ...a5, ...a6, ...a7, ...a8, ...a9, ...a10, ...a11];
+};
 
-	return abdulkhamidov;
+const allKhamidov = (): Base[] => {
+	return [
+		...b1,
+		...b2,
+		...b3,
+		...b4,
+		...b5,
+		...b6,
+		...b7,
+		...b8,
+		...b9,
+		...b10,
+		...b11,
+		...b12,
+		...b13,
+		...b14,
+		...b15
+	];
 };
 
 const allSharipov = (): Base[] => {
-	const sharipov: Base[] = [...family1a, ...family2a];
-	return sharipov;
+	return [...c1, ...c2, ...c3, ...c4, ...c5, ...c6, ...c7, ...c8, ...c9];
 };
 
-export default { allAbdulkhamidov, allSharipov };
+export default { allAbdulkhamidov, allKhamidov, allSharipov };

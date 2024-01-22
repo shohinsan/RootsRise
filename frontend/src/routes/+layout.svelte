@@ -1,7 +1,7 @@
 <script>
 	import '$styles/app.css';
 	import { onNavigate } from '$app/navigation';
-	import Metadata from '$components/Metadata.svelte';
+	import { Metadata } from '$components';
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -15,7 +15,9 @@
 </script>
 
 <nav>
-	<a href="/">abdulkhamidov</a> ✦
+	<a href="/">abdulkhamidov</a> •
+	<a href="/khamidov">khamidov</a> •
+	<!-- <a href="/karimov">karimov</a> • -->
 	<a href="/sharipov">sharipov</a>
 </nav>
 
@@ -29,7 +31,9 @@
 		top: 0;
 		left: 0;
 		width: 100%;
-		padding: 10px; 
-		z-index: 1000; /* Set a higher z-index to ensure it's above other elements */
+		padding: 10px;
+		z-index: 1;
+		backdrop-filter: blur(10px);
+		font-family: 'SFProFont', sans-serif; 
 	}
 </style>

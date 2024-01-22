@@ -1,14 +1,11 @@
 <script lang="ts">
 	import type { Base } from '$customTypes';
-	import { About, Tree } from '$components';
+	import { InfoTab, Tree } from '$components';
 	import { info, dataset } from '$stores';
-	import { seed } from '$lib';
-	import { utils } from '$lib';
+	import { seed, utils } from '$lib';
 
-	const fam2: Base[] = seed.allSharipov();
-	const fams: Base[] = [...fam2];
-
-	dataset.set(utils.addedNew(fams));
+	const sharipov: Base[] = seed.allSharipov();
+	dataset.set(utils.addedNew(sharipov));
 
 	let tab: Base | undefined;
 
@@ -19,7 +16,7 @@
 
 <main>
 	<Tree dataset={$dataset} />
-	<About {...tab} />
+	<InfoTab {...tab} />
 </main>
 
 <style>
@@ -29,5 +26,6 @@
 		overflow-y: hidden;
 		overflow-x: scroll;
 		padding: 2rem;
+		font-family: 'SFProFont', sans-serif; 
 	}
 </style>
