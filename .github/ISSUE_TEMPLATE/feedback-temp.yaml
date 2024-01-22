@@ -1,26 +1,23 @@
-name: 📗 Documentation Issue
+name: 🔴 Feedback
 description: Tell us if there is missing or incorrect documentation
-labels: [docs]
+labels: [feedback]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to report this issue. Your feedback is highly valuable in ensuring the quality of our journal. 
+        Thank you for taking the time to report this issue. Your feedback is highly valuable in ensuring the quality and credibility of our family members. 
         Please provide the following information to help us address the problem effectively:
 
   - type: dropdown
     attributes:
-      label: What is the type of issue?
-      multiple: true
+      label: What is the type of feedback?
       options:
-        - Clarity and coherence
-        - Structure and organization
-        - Citation and reference errors
-        - Inaccurate or missing information
+        - Missing member
+        - Incorrect member information
         - Other (Please specify)
   - type: textarea
     attributes:
-      label: What is the issue?
+      label: What is your feedback?
     validations:
       required: true
   - type: textarea

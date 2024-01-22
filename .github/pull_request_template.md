@@ -8,14 +8,13 @@ This PR optimizes the writing platform's interface, simplifying the submission p
 
 -->
 
-- [ ] Adds new chapter/section
-- [ ] Manuscript changes
+- [ ] Adds new member/family
+- [ ] Member changes
 
 ### How did you verify your manuscript works?
 
 <!-- 
 
-Conducting local tests: Compile the LaTeX document using a local TeX distribution 
-and verify that the document compiles without errors and generates the expected output. 
+Please provide ID or name of the user including in which URL it is located. 
 
 -->
