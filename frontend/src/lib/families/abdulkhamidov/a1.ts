@@ -5,6 +5,7 @@ const a1: Base[] = [
 	{
 		id: 'A1A',
 		name: 'Sharifjon Abdulkhamidov',
+		dependant: 'D1B',
 		image: Icons.default,
 		information: {
 			birth: '1933',

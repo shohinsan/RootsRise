@@ -16,7 +16,19 @@ const c2: Base[] = [
 	},
 	{
 		id: 'C2B',
-		name: 'Add name here',
+		name: 'Komila Sharipova',
+		dependant: 'C2A',
+		image: Icons.default,
+		information: {
+			birth: '1933'
+		},
+		description: {
+			details: ['A short description', 'Another description']
+		}
+	},
+	{
+		id: 'C2C',
+		name: 'Habiba Sharipova',
 		dependant: 'C2A',
 		image: Icons.default,
 		information: {

@@ -16,7 +16,7 @@ const c9: Base[] = [
 	},
 	{
 		id: 'C9B',
-		name: 'Add name here',
+		name: 'Bahtiyor',
 		dependant: 'C9A',
 		image: Icons.default,
 		information: {
@@ -25,7 +25,56 @@ const c9: Base[] = [
 		description: {
 			details: ['A short description', 'Another description']
 		}
-	}
+	},
+	{
+		id: 'C9C',
+		name: 'Afzalshoh',
+		dependant: 'C9A',
+		image: Icons.default,
+		information: {
+			birth: '1933'
+		},
+		description: {
+			details: ['A short description', 'Another description']
+		}
+	},
+	{
+		id: 'C9D',
+		name: 'Doston',
+		dependant: 'C9A',
+		image: Icons.default,
+		information: {
+			birth: '1933'
+		},
+		description: {
+			details: ['A short description', 'Another description']
+		}
+	},
+	{
+		id: 'C9E',
+		name: 'Hasan',
+		dependant: 'C9A',
+		image: Icons.default,
+		information: {
+			birth: '1933'
+		},
+		description: {
+			details: ['A short description', 'Another description']
+		}
+	},
+	{
+		id: 'C9F',
+		name: 'Husein',
+		dependant: 'C9A',
+		image: Icons.default,
+		information: {
+			birth: '1933'
+		},
+		description: {
+			details: ['A short description', 'Another description']
+		}
+	},
+	
 ];
 
 export default c9;

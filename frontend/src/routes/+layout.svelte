@@ -14,26 +14,26 @@
 	});
 </script>
 
-<nav>
-	<a href="/">abdulkhamidov</a> •
-	<a href="/khamidov">khamidov</a> •
-	<!-- <a href="/karimov">karimov</a> • -->
-	<a href="/sharipov">sharipov</a>
-</nav>
+<!-- <nav> -->
+<!-- <a href="/">abdulkhamidov</a> • -->
+<!-- <a href="/khamidov">khamidov</a> • -->
+<!-- <a href="/karimov">karimov</a> • -->
+<!-- <a href="/sharipov">sharipov</a> -->
+<!-- </nav> -->
 
 <Metadata />
 
 <slot />
 
 <style>
-	nav {
+	/* nav {
 		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
 		padding: 10px;
-		z-index: 1;
-		backdrop-filter: blur(10px);
-		font-family: 'SFProFont', sans-serif; 
-	}
+		z-index: 100;
+		background-color: color-mix(in oklab, var(--color-bg), var(--color-text) 5%);
+		font-family: 'SFProFont', sans-serif;
+	} */
 </style>

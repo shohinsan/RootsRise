@@ -6,8 +6,16 @@
 	import { utils } from '$lib';
 
 	const abdulkhamidov: Base[] = seed.allAbdulkhamidov();
+	const valiev: Base[] = seed.allValiev();
+	const sharipov: Base[] = seed.allSharipov();
+	const khamidov: Base[] = seed.allKhamidov();
 
-	dataset.set(utils.addedNew(abdulkhamidov));
+	dataset.set(utils.addedNew([
+		...valiev, 
+		...abdulkhamidov, 
+		...sharipov, 
+		...khamidov
+	]));
 
 	let tab: Base | undefined;
 
@@ -28,6 +36,6 @@
 		overflow-y: hidden;
 		overflow-x: scroll;
 		padding: 2rem;
-		font-family: 'SFProFont', sans-serif; 
+		font-family: 'SFProFont', sans-serif;
 	}
 </style>

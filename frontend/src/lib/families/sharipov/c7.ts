@@ -15,8 +15,32 @@ const c7: Base[] = [
 		}
 	},
 	{
-		id: 'C7B',
-		name: 'Add name here',
+		id: 'C7C',
+		name: 'Sabrina Sharipova',
+		dependant: 'C7A',
+		image: Icons.default,
+		information: {
+			birth: '1933'
+		},
+		description: {
+			details: ['A short description', 'Another description']
+		}
+	},
+	{
+		id: 'C7D',
+		name: 'Safina Sharipova',
+		dependant: 'C7A',
+		image: Icons.default,
+		information: {
+			birth: '1933'
+		},
+		description: {
+			details: ['A short description', 'Another description']
+		}
+	},
+	{
+		id: 'C7E',
+		name: 'Ato Sharipov',
 		dependant: 'C7A',
 		image: Icons.default,
 		information: {
