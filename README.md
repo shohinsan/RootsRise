@@ -30,6 +30,7 @@ RootsRise is an ongoing and collaborative effort to map out the rich history of 
 - Abdulkhamidov - A1A
 - Khamidov - B1A
 - Sharipov - C1A
+- Valiev - D1A
 
 ### Sneak Peak
 
