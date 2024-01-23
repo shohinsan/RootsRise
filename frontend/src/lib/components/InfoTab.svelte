@@ -36,8 +36,16 @@
 <footer>
 	<p>Проект создан для оцифровки и систематизации информации о родственниках.</p>
 
-	<a class="issues" href="https://github.com/shohinsan/RootsRise/issues/new?assignees=&labels=issue&projects=&template=issue-temp.yaml">Сообщить о проблеме</a>
-	<a class="issues" href="https://github.com/shohinsan/RootsRise/issues/new?assignees=&labels=feedback&projects=&template=feedback-temp.yaml">Оставить отзыв</a>
+	<a
+		class="issues"
+		href="https://github.com/shohinsan/RootsRise/issues/new?assignees=&labels=issue&projects=&template=issue-temp.yaml"
+		>Сообщить о проблеме</a
+	>
+	<a
+		class="issues"
+		href="https://github.com/shohinsan/RootsRise/issues/new?assignees=&labels=feedback&projects=&template=feedback-temp.yaml"
+		>Оставить отзыв</a
+	>
 </footer>
 
 <style>
@@ -51,15 +59,16 @@
 		font-family: 'SFProFont', sans-serif;
 	}
 
-	.issues {
-		padding: 0.5rem;
-	}
-
 	.sticky {
 		position: sticky;
 		bottom: 2em;
 		padding-block: 0.6em;
 		box-shadow: color-mix(in oklab, black, transparent 50%) 0px 7px 20px 2px;
+	}
+
+	.issues {
+		padding: 0.5rem;
+		text-decoration: none;
 	}
 
 	.sticky > * {

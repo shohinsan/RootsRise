@@ -1,11 +1,12 @@
 import type { Base } from '$customTypes';
 import { Icons } from '$assets';
 
-const d1: Base[] = [
+const d14: Base[] = [
 	{
-		id: 'D1A',
-		name: 'Sokhibnazar Valiev',
+		id: 'D14A',
+		name: '✶ Ruziboy ...',
 		image: Icons.default,
+		dependant: 'D10E',
 		information: {
 			birth: '1933'
 		},
@@ -15,4 +16,4 @@ const d1: Base[] = [
 	}
 ];
 
-export default d1;
+export default d14;

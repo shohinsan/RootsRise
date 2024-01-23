@@ -1,1 +1,16 @@
 export { default as d1 } from './d1';
+export { default as d2 } from './d2';
+export { default as d3 } from './d3';
+export { default as d4 } from './d4';
+export { default as d5 } from './d5';
+export { default as d6 } from './d6';
+export { default as d7 } from './d7';
+export { default as d8 } from './d8';
+export { default as d9 } from './d9';
+export { default as d10 } from './d10';
+export { default as d11 } from './d11';
+export { default as d12 } from './d12';
+export { default as d13 } from './d13';
+export { default as d14 } from './d14';
+export { default as d15 } from './d15';
+export { default as d16 } from './d16';

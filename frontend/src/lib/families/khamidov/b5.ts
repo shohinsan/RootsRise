@@ -4,7 +4,7 @@ import { Icons } from '$assets';
 const b5: Base[] = [
 	{
 		id: 'B5A',
-		name: 'Nekruz Khamidov',
+		name: '✶ Nekruz Khamidov',
 		dependant: 'B2D',
 		information: {
 			birth: '1933'
