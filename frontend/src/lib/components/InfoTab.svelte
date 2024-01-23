@@ -35,17 +35,23 @@
 
 <footer>
 	<p>Проект создан для оцифровки и систематизации информации о родственниках.</p>
+
+	<a class="issues" href="/issue-template">Сообщить о проблеме</a>
+	<a class="issues" href="/feedback-template">Оставить отзыв</a>
 </footer>
 
 <style>
 	div {
 		z-index: 99;
-
 		margin: 2em auto;
 		max-width: min(calc(100vw - 8em), 100ch);
 		padding: 2em;
 		border-radius: 0.6em;
 		background-color: color-mix(in oklab, var(--color-bg), var(--color-text) 5%);
+	}
+
+	.issues {
+		padding: 0.5rem;
 	}
 
 	.sticky {
@@ -87,9 +93,12 @@
 
 	footer {
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		padding: 1rem;
 		font-size: 0.8em;
+
 		color: var(--color-text);
 	}
 </style>
