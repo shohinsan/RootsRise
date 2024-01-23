@@ -48,6 +48,7 @@
 		padding: 2em;
 		border-radius: 0.6em;
 		background-color: color-mix(in oklab, var(--color-bg), var(--color-text) 5%);
+		font-family: 'SFProFont', sans-serif;
 	}
 
 	.issues {
@@ -97,8 +98,8 @@
 		align-items: center;
 		justify-content: center;
 		padding: 1rem;
-		font-size: 0.8em;
-
+		font-size: 1em;
 		color: var(--color-text);
+		font-family: 'SFProFont', sans-serif;
 	}
 </style>
