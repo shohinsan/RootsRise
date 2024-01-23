@@ -4,7 +4,7 @@
 
 <!--
 
-This PR optimizes the writing platform's interface, simplifying the submission process and integrating an automated proofreading feature, which enhances the overall experience for writers and authors.
+This PR optimizes the family tree platform's interface, simplifying the submission process which enhances the overall experience for all family members.
 
 -->
 
