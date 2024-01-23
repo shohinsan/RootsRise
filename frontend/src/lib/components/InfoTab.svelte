@@ -39,24 +39,22 @@
 	<a
 		class="issues"
 		href="https://github.com/shohinsan/RootsRise/issues/new?assignees=&labels=issue&projects=&template=issue-temp.yaml"
-		>Сообщить о проблеме</a
+		>Сообщить о проблеме 🚀</a
 	>
 	<a
 		class="issues"
 		href="https://github.com/shohinsan/RootsRise/issues/new?assignees=&labels=feedback&projects=&template=feedback-temp.yaml"
-		>Оставить отзыв</a
+		>Оставить отзыв 🌟</a
 	>
 </footer>
 
 <style>
 	div {
-		z-index: 99;
 		margin: 2em auto;
 		max-width: min(calc(100vw - 8em), 100ch);
 		padding: 2em;
 		border-radius: 0.6em;
 		background-color: color-mix(in oklab, var(--color-bg), var(--color-text) 5%);
-		font-family: 'SFProFont', sans-serif;
 	}
 
 	.sticky {
@@ -76,32 +74,9 @@
 		text-overflow: ellipsis;
 	}
 
-	p {
-		margin: 0;
-		padding: 0.5em 0;
-		font-size: 1.2em;
-		text-align: start;
-	}
-
-	h1 {
-		margin: 0;
-		font-size: 2em;
-	}
-
-	h2 {
-		margin: 0;
-		padding: 0;
-		font-size: 1.5em;
-		opacity: 0.7;
-	}
-
-	img {
-		width: 10em;
-		height: 10em;
-		border-radius: 1rem;
-	}
 
 	footer {
+		border-top: 1px solid var(--color-text);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -109,6 +84,5 @@
 		padding: 1rem;
 		font-size: 1em;
 		color: var(--color-text);
-		font-family: 'SFProFont', sans-serif;
 	}
 </style>

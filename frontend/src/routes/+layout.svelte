@@ -16,17 +16,13 @@
 
 <Metadata />
 
-<main>
+<div>
 	<slot />
-</main>
+</div>
 
 <style>
-	main {
-		text-align: center;
+	div {
 		position: relative;
 		overflow-y: hidden;
-		overflow-x: scroll;
-		padding: 2rem;
-		font-family: 'SFProFont', sans-serif;
 	}
 </style>
