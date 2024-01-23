@@ -7,3 +7,7 @@ export { default as c6 } from './c6';
 export { default as c7 } from './c7';
 export { default as c8 } from './c8';
 export { default as c9 } from './c9';
+export { default as c10 } from './c10';
+export { default as c11 } from './c11';
+export { default as c12 } from './c12';
+export { default as c13 } from './c13';

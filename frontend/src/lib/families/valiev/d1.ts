@@ -1,31 +1,30 @@
 import type { Base } from '$customTypes';
 import { Icons } from '$assets';
 
-const b1: Base[] = [
+const d1: Base[] = [
 	{
 		id: 'D1A',
-		name: 'Someone Karimov',
+		name: 'Abdulhamid Valiev',
 		image: Icons.default,
 		information: {
-			birth: '1933',
-			death: '2023'
+			birth: '1933'
 		},
 		description: {
-			details: ['A short description', 'Another description']
+			details: ['more info on khamidov page', 'Another description']
 		}
 	},
 	{
 		id: 'D1B',
-		name: 'Someone Karimova',
+		name: 'Zulfiyamoh Valieva',
 		dependant: 'D1A',
 		image: Icons.default,
 		information: {
-			birth: '1941'
+			birth: '1933'
 		},
 		description: {
-			details: ['A short description', 'Another description']
+			details: ['more info on khamidov page', 'Another description']
 		}
 	}
 ];
 
-export default b1;
+export default d1;
