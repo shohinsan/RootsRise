@@ -15,14 +15,4 @@
 </script>
 
 <Metadata />
-
-<div>
-	<slot />
-</div>
-
-<style>
-	div {
-		position: relative;
-		overflow-y: hidden;
-	}
-</style>
+<slot />
