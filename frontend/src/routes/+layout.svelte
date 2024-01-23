@@ -32,7 +32,7 @@
 		left: 0;
 		width: 100%;
 		padding: 10px;
-		z-index: 1;
+		z-index: 100;
 		backdrop-filter: blur(10px);
 		font-family: 'SFProFont', sans-serif; 
 	}
