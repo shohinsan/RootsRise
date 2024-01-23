@@ -21,8 +21,6 @@
 <style>
 	:global(.treeRoot) {
 		text-align: center;
-		position: relative;
-		overflow-y: hidden;
 		overflow-x: scroll;
 		padding: 2rem;
 	}
