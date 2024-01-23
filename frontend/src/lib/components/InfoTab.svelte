@@ -36,8 +36,8 @@
 <footer>
 	<p>Проект создан для оцифровки и систематизации информации о родственниках.</p>
 
-	<a class="issues" href="/issue-template">Сообщить о проблеме</a>
-	<a class="issues" href="/feedback-template">Оставить отзыв</a>
+	<a class="issues" href="https://github.com/shohinsan/RootsRise/issues/new?assignees=&labels=issue&projects=&template=issue-temp.yaml">Сообщить о проблеме</a>
+	<a class="issues" href="https://github.com/shohinsan/RootsRise/issues/new?assignees=&labels=feedback&projects=&template=feedback-temp.yaml">Оставить отзыв</a>
 </footer>
 
 <style>
