@@ -1,12 +1,12 @@
 import type { Base } from '$customTypes';
 import { Icons } from '$assets';
 
-const c15: Base[] = [
+const d10: Base[] = [
 	{
-		id: '✶ C15A',
-		name: 'Faridun ...',
-		dependant: 'C3E',
+		id: 'D10A',
+		name: '✶ Zainabbibi ...',
 		image: Icons.default,
+		dependant: 'D3B',
 		information: {
 			birth: '1933'
 		},
@@ -15,10 +15,10 @@ const c15: Base[] = [
 		}
 	},
 	{
-		id: 'C15B',
-		name: 'Mubina ...',
-		dependant: 'C15A',
+		id: 'D10B',
+		name: 'Muharramoy ...',
 		image: Icons.default,
+		dependant: 'D10A',
 		information: {
 			birth: '1933'
 		},
@@ -27,10 +27,10 @@ const c15: Base[] = [
 		}
 	},
 	{
-		id: 'C15C',
-		name: 'Muboriz ...',
-		dependant: 'C15A',
+		id: 'D10C',
+		name: 'Marhamatoy ...',
 		image: Icons.default,
+		dependant: 'D10A',
 		information: {
 			birth: '1933'
 		},
@@ -39,10 +39,22 @@ const c15: Base[] = [
 		}
 	},
 	{
-		id: 'C15D',
-		name: 'Add name here',
-		dependant: 'C15A',
+		id: 'D10D',
+		name: 'Abduvohid Valiev',
 		image: Icons.default,
+		dependant: 'D10A',
+		information: {
+			birth: '1933'
+		},
+		description: {
+			details: ['more info on khamidov page', 'Another description']
+		}
+	},
+	{
+		id: 'D10E',
+		name: 'Karomatoy Valieva',
+		image: Icons.default,
+		dependant: 'D10A',
 		information: {
 			birth: '1933'
 		},
@@ -52,4 +64,4 @@ const c15: Base[] = [
 	}
 ];
 
-export default c15;
+export default d10;

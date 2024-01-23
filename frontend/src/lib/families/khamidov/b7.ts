@@ -3,7 +3,7 @@ import type { Base } from '$customTypes';
 const b7: Base[] = [
 	{
 		id: 'B7A',
-		name: 'Abduvali Abdulkhamidov',
+		name: '✶ Abduvali Abdulkhamidov',
 		dependant: 'B1E',
 		information: {
 			birth: '1933'

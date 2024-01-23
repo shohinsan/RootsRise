@@ -16,6 +16,17 @@
 
 <Metadata />
 
-<slot />
+<main>
+	<slot />
+</main>
 
-
+<style>
+	main {
+		text-align: center;
+		position: relative;
+		overflow-y: hidden;
+		overflow-x: scroll;
+		padding: 2rem;
+		font-family: 'SFProFont', sans-serif;
+	}
+</style>

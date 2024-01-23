@@ -1,11 +1,11 @@
 import type { Base } from '$customTypes';
 import { Icons } from '$assets';
 
-const c7: Base[] = [
+const d5: Base[] = [
 	{
-		id: 'C7A',
-		name: '✶ Zainura ...',
-		dependant: 'C1H',
+		id: 'D5A',
+		name: '✶ Zulfiyamoh Valieva',
+		dependant: 'D4B',
 		image: Icons.default,
 		information: {
 			birth: '1933'
@@ -15,41 +15,42 @@ const c7: Base[] = [
 		}
 	},
 	{
-		id: 'C7C',
-		name: 'Sabrina Sharipova',
-		dependant: 'C7A',
+		id: 'D5B',
+		name: 'Sharifjon Abdulkhamidov',
+		dependant: 'D5A',
 		image: Icons.default,
 		information: {
-			birth: '1933'
+			birth: '1933',
+			death: '2023'
 		},
 		description: {
 			details: ['A short description', 'Another description']
 		}
 	},
 	{
-		id: 'C7D',
-		name: 'Safina Sharipova',
-		dependant: 'C7A',
+		id: 'D5C',
+		name: 'Hurshedmoh Sharipova',
+		dependant: 'D5A',
 		image: Icons.default,
 		information: {
 			birth: '1933'
 		},
 		description: {
-			details: ['A short description', 'Another description']
+			details: ['more info on khamidov page', 'Another description']
 		}
 	},
 	{
-		id: 'C7E',
-		name: 'Ato Sharipov',
-		dependant: 'C7A',
+		id: 'D5D',
+		name: 'Equbjon Khamidov',
+		dependant: 'D5A',
 		image: Icons.default,
 		information: {
 			birth: '1933'
 		},
 		description: {
-			details: ['A short description', 'Another description']
+			details: ['more info on khamidov page', 'Another description']
 		}
 	}
 ];
 
-export default c7;
+export default d5;

@@ -4,7 +4,7 @@ import { Icons } from '$assets';
 const c3: Base[] = [
 	{
 		id: 'C3A',
-		name: 'Mavluda ...',
+		name: '✶ Mavluda ...',
 		dependant: 'C1D',
 		image: Icons.default,
 		information: {

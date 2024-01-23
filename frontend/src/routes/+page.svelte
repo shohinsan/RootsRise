@@ -10,12 +10,7 @@
 	const sharipov: Base[] = seed.allSharipov();
 	const khamidov: Base[] = seed.allKhamidov();
 
-	dataset.set(utils.addedNew([
-		...valiev, 
-		...abdulkhamidov, 
-		...sharipov, 
-		...khamidov
-	]));
+	dataset.set(utils.addedNew([...valiev, ...abdulkhamidov, ...sharipov, ...khamidov]));
 
 	let tab: Base | undefined;
 
@@ -24,18 +19,5 @@
 	});
 </script>
 
-<main>
-	<Tree dataset={$dataset} />
-	<InfoTab {...tab} />
-</main>
-
-<style>
-	main {
-		text-align: center;
-		position: relative;
-		overflow-y: hidden;
-		overflow-x: scroll;
-		padding: 2rem;
-		font-family: 'SFProFont', sans-serif;
-	}
-</style>
+<Tree dataset={$dataset} />
+<InfoTab {...tab} />
