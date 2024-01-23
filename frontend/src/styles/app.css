@@ -1,32 +1,26 @@
 :root {
   font-family: 'SFProFont', sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-
   color-scheme: light dark;
-
   --color-primary: #747bff;
   --color-secondary: #ff7477;
   --color-accent: #ffe259;
   --color-bg: #242424;
   --color-text: #ffffffde;
-
   color: var(--color-text);
   background-color: var(--color-bg);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
+  max-width: calc(100svw - (100svw - 100%)); 
 }
 
 h1 {
@@ -34,22 +28,27 @@ h1 {
   line-height: 1.1;
 }
 
-
-#app {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  max-width: calc(100svw - (100svw - 100%)); 
-}
-
 a {
   transition: all 0.3s ease-in-out;
 }
 
+p {
+  margin: 0;
+  padding: 0.5em 0;
+  font-size: 1.2em;
+  text-align: start;
+}
+
+img {
+  width: 10em;
+  height: 10em;
+  border-radius: 1rem;
+}
+
+
 li > a:hover,
 li > a:hover ~ ul li a {
   background-color: rgba(51, 51, 51, 0.7);
-  /* opacity: 1; */
   filter: brightness(1.2);
   color: #ebebee;
 }
@@ -58,35 +57,14 @@ li a {
   position: sticky;
   left: 0;
   right: 0;
-  
   display: inline-block;
   text-decoration: none;
   color: var(--color-text);
-  /* opacity: .7; */
   filter: brightness(1);
   border: 2px solid rgba(51, 51, 51, 0.7);
   padding: .3em .5em;
   border-radius: .5em;
 }
-
-/* .treeRoot a::before {
-  position: absolute;
-  content: '';
-  bottom: -50%;
-  top: calc(100% + 2px);
-  left: 50%;
-  border-right: 1px solid #ccc;
-  height: calc(var(--connectorOffset) * 2);
-}
-
-.treeRoot li:not(:has(>ul)) > a::before {
-  border: none;
-}
-
-.treeRoot li:has(> ul > li:only-child) > a::before {
-  height: var(--connectorOffset);
-} */
-
 
 @media (prefers-color-scheme: light) {
   :root {

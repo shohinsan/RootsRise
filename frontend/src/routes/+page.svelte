@@ -5,19 +5,21 @@
 	import { seed } from '$lib';
 	import { utils } from '$lib';
 
-	const abdulkhamidov: Base[] = seed.allAbdulkhamidov();
-	const valiev: Base[] = seed.allValiev();
-	const sharipov: Base[] = seed.allSharipov();
-	const khamidov: Base[] = seed.allKhamidov();
+	const data: Base[] = [
+		...seed.allAbdulkhamidov(),
+		...seed.allValiev(),
+		...seed.allSharipov(),
+		...seed.allKhamidov()
+	];
 
-	dataset.set(utils.addedNew([...valiev, ...abdulkhamidov, ...sharipov, ...khamidov]));
+	dataset.set(utils.addedNew(data));
 
-	let tab: Base | undefined;
+	let activeTab: Base | undefined;
 
 	info.subscribe((value) => {
-		tab = value;
+		activeTab = value;
 	});
 </script>
 
 <Tree dataset={$dataset} />
-<InfoTab {...tab} />
+<InfoTab {...activeTab} />
