@@ -28,8 +28,8 @@ RootsRise is an ongoing and collaborative effort to map out the rich history of 
 ### ID
 
 - Abdulkhamidov - A1A
-- Khamidov - B1A...
-- Sharipov - C1A...
+- Khamidov - B1A
+- Sharipov - C1A
 
 ### Sneak Peak
 
