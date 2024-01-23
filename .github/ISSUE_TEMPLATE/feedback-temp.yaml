@@ -1,0 +1,26 @@
+name: 🔴 Feedback
+description: Tell us if there is missing or incorrect documentation
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report this issue. Your feedback is highly valuable in ensuring the quality and credibility of our family members. 
+        Please provide the following information to help us address the problem effectively:
+
+  - type: dropdown
+    attributes:
+      label: What is the type of feedback?
+      options:
+        - Missing member
+        - Incorrect member information
+        - Other (Please specify)
+  - type: textarea
+    attributes:
+      label: What is your feedback?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Where did you find it?
+      description: If possible, please provide the URL(s) where you found this issue.

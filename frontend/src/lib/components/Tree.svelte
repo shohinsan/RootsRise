@@ -2,6 +2,7 @@
 	import { Cell } from '$components';
 	import type { Base } from '$customTypes';
 	import { info } from '$stores';
+	import { page } from '$app/stores';
 
 	export let dataset: Base[] = [];
 
@@ -12,7 +13,7 @@
 </script>
 
 <Cell class="treeRoot" members={dataset} let:member>
-	<a href="/" on:click={(event) => handleClick(event, member)}>
+	<a href={$page.url.pathname} on:click={(event) => handleClick(event, member)}>
 		{member.name}
 	</a>
 </Cell>

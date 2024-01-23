@@ -101,3 +101,8 @@ li a {
     --color-bg: #ffffff;
   }
 }
+
+@font-face {
+  font-family: 'SFProFont';
+  src: url('sanfrancisco.ttf') format('truetype');
+}
