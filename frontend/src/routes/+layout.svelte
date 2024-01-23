@@ -33,7 +33,7 @@
 		width: 100%;
 		padding: 10px;
 		z-index: 100;
-		backdrop-filter: blur(10px);
+		background-color: color-mix(in oklab, var(--color-bg), var(--color-text) 5%);
 		font-family: 'SFProFont', sans-serif; 
 	}
 </style>
