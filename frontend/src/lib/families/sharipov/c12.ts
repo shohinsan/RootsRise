@@ -4,8 +4,8 @@ import { Icons } from '$assets';
 const c12: Base[] = [
 	{
 		id: 'C12A',
-		name: 'Shuhrat ...',
-		dependant: 'C1D',
+		name: 'Jonona ...',
+		dependant: 'C3B',
 		image: Icons.default,
 		information: {
 			birth: '1933'
@@ -16,8 +16,8 @@ const c12: Base[] = [
 	},
 	{
 		id: 'C12B',
-		name: 'Omilhon ...',
-		dependant: 'C10A',
+		name: 'Faroz ...',
+		dependant: 'C12A',
 		image: Icons.default,
 		information: {
 			birth: '1933'

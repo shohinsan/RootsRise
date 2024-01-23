@@ -49,6 +49,18 @@ const c3: Base[] = [
 		description: {
 			details: ['A short description', 'Another description']
 		}
+	},
+	{
+		id: 'C3E',
+		name: 'Zevara Sharipova',
+		dependant: 'C3A',
+		image: Icons.default,
+		information: {
+			birth: '1933'
+		},
+		description: {
+			details: ['A short description', 'Another description']
+		}
 	}
 ];
 
