@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Base } from '$customTypes';
-	import Footer from './Footer.svelte';
+	import { Footer } from '$components';
 
 	export let id: string = '';
 	export let name: string = '';
@@ -52,15 +52,8 @@
 		box-shadow: color-mix(in oklab, black, transparent 50%) 0px 7px 20px 2px;
 	}
 
-	.issues {
-		padding: 0.5rem;
-		text-decoration: none;
-	}
-
 	.sticky > * {
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
-
-
 </style>
