@@ -2,9 +2,7 @@ import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
 
 const config = {
-	preprocess: preprocess({
-		postcss: true,
-	}),
+	preprocess: preprocess(),
 	kit: {
 		adapter: adapter(),
 		alias: {
@@ -14,9 +12,9 @@ const config = {
 			$customTypes: 'src/app.d.ts',
 			$assets: 'src/lib/assets',
 			$family: 'src/lib/families',
-			$styles: 'src/styles',
-		},
-	},
+			$styles: 'src/styles'
+		}
+	}
 };
 
 export default config;

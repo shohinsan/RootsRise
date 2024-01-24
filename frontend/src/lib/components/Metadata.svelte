@@ -30,6 +30,6 @@
 	<meta property="og:description" content={site.createSite.description} />
 	<meta property="og:site_name" content={site.createSite.name} />
 	<meta property="og:locale" content="EN_US" />
-	<link rel="shortcut icon" href="/favicon-16x16.png" />
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/svg+xml" href="%sveltekit.assets%/favicon.svg" />
+	<link rel="apple-touch-icon" href="%sveltekit.assets%/favicon.svg" />
 </svelte:head>

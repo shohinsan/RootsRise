@@ -39,4 +39,4 @@ type DescriptionType = {
 	details?: string | string[];
 };
 
-export { Document, Base, InformationTypes, DescriptionType, RelationTypes };
+export { Document, Base, InformationTypes, DescriptionType };

@@ -2,9 +2,7 @@
 </script>
 
 <footer>
-	<p>
-        A large database of family members and their relations.
-    </p>
+	<p>A large database of family members and their relations.</p>
 
 	<a
 		class="issues"
@@ -28,5 +26,10 @@
 		padding: 1rem;
 		font-size: 1em;
 		color: var(--color-text);
+	}
+
+	.issues {
+		padding: 0.5rem;
+		text-decoration: none;
 	}
 </style>
