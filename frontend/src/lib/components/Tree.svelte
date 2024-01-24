@@ -6,6 +6,11 @@
 
 	export let dataset: Base[] = [];
 
+	let person = $page.data.person;
+	$: if (person) {
+		dataset = person;
+	}
+
 	function handleClick(event: Event, member: Base) {
 		event.preventDefault();
 		info.set(member as Base);
