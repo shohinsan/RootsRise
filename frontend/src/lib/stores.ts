@@ -3,14 +3,11 @@ import type { Base } from '$customTypes';
 import { Icons } from '$assets';
 
 const values: Base = {
-  name: 'Name',
-  information: {
-    birth: 'birth - death'
-  },
-  description: {
-    details: 'A short description about the person'
-  },
-  image: Icons.default,
+	name: 'Name',
+	birth: 'birth',
+	death: 'death',
+	details: 'A short description about the person',
+	image: Icons.default
 };
 
 const info: Writable<Base> = writable(values);

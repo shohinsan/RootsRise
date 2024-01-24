@@ -7,12 +7,8 @@ const a1: Base[] = [
 		name: '✶ Sharofatoi Abdulkhamidova',
 		dependant: 'D5B',
 		image: Icons.default,
-		information: {
-			birth: '1941'
-		},
-		description: {
-			details: ['A short description', 'Another description']
-		}
+		birth: '1941',
+		details: ['A short description', 'Another description']
 	},
 	{
 		id: 'A1C',

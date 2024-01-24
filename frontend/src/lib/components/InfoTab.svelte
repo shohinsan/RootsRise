@@ -1,18 +1,19 @@
 <script lang="ts">
-	import type { Base } from '$customTypes';
 	import { Footer } from '$components';
+	import type { Base } from '$customTypes';
 
 	export let id: string = '';
 	export let name: string = '';
 	export let image: string = '';
+	export let birth: string = '';
+	export let death: string = '';
+	export let place: string = '';
+	export let details: string | string[] = '';
 
-	export let information: Base['information'] = {};
-	export let description: Base['description'] = {};
+	const bio = ({ details }: Base = {}): string[] =>
+		typeof details === 'string' ? details.split('\n') : details ?? [];
 
-	const bio = ({ details }: Base['description'] = {}): string[] =>
-		Array.isArray(details) ? details : [details || ''];
-
-	const format = ({ birth, death, place }: Base['information'] = {}): string =>
+	const format = ({ birth, death, place }: Base = {}): string =>
 		`${birth || ''}${place ? ` (${place})` : ''}${death ? ` - ${death}` : ''}`;
 </script>
 
@@ -23,13 +24,13 @@
 		{/if}
 		<h1>{name}</h1>
 		<h2>
-			{format(information)}
+			{format({ birth, death, place })}
 		</h2>
 	</div>
 {/key}
 
 <div>
-	{#each bio(description) as paragraph}
+	{#each bio({ details }) as paragraph}
 		<p>{paragraph}</p>
 	{/each}
 </div>

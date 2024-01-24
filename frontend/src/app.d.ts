@@ -24,19 +24,11 @@ interface Base {
 	name?: string;
 	dependant?: string;
 	image?: string;
-	information?: InformationTypes;
-	description?: DescriptionType;
-	children?: Base[];
-}
-
-type InformationTypes = {
 	birth?: string;
 	death?: string;
 	place?: string;
-};
-
-type DescriptionType = {
 	details?: string | string[];
-};
+	children?: Base[];
+}
 
-export { Document, Base, InformationTypes, DescriptionType };
+export { Document, Base };
