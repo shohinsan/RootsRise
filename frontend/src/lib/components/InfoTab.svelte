@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Base } from '$customTypes';
+	import Footer from './Footer.svelte';
 
 	export let id: string = '';
 	export let name: string = '';
@@ -33,20 +34,7 @@
 	{/each}
 </div>
 
-<footer>
-	<p>Проект создан для оцифровки и систематизации информации о родственниках.</p>
-
-	<a
-		class="issues"
-		href="https://github.com/shohinsan/RootsRise/issues/new?assignees=&labels=issue&projects=&template=issue-temp.yaml"
-		>Сообщить о проблеме 🚀</a
-	>
-	<a
-		class="issues"
-		href="https://github.com/shohinsan/RootsRise/issues/new?assignees=&labels=feedback&projects=&template=feedback-temp.yaml"
-		>Оставить отзыв 🌟</a
-	>
-</footer>
+<Footer />
 
 <style>
 	div {
@@ -75,14 +63,4 @@
 	}
 
 
-	footer {
-		border-top: 1px solid var(--color-text);
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding: 1rem;
-		font-size: 1em;
-		color: var(--color-text);
-	}
 </style>
