@@ -31,7 +31,7 @@ const a1: Base[] = [
 		name: 'Abdumalik Abdulkhamidov',
 		dependant: 'A1B',
 		information: {
-			birth: '1760'
+			birth: '1969'
 		},
 		description: {
 			details: ['A short description', 'Another description']
@@ -42,7 +42,7 @@ const a1: Base[] = [
 		name: 'Dilshod Abdulkhamidov',
 		dependant: 'A1B',
 		information: {
-			birth: '1760'
+			birth: '1974'
 		},
 		description: {
 			details: ['A short description', 'Another description']
@@ -53,7 +53,7 @@ const a1: Base[] = [
 		name: 'Jamshed Abdulkhamidov',
 		dependant: 'A1B',
 		information: {
-			birth: '1760'
+			birth: '1970'
 		},
 		description: {
 			details: ['A short description', 'Another description']
@@ -64,7 +64,7 @@ const a1: Base[] = [
 		name: 'Lola Abdulkhamidova',
 		dependant: 'A1B',
 		information: {
-			birth: '1760'
+			birth: '1982'
 		},
 		description: {
 			details: ['A short description', 'Another description']
