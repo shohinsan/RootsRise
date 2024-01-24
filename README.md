@@ -7,36 +7,37 @@ RootsRise is an ongoing and collaborative effort to map out the rich history of 
 ### Example JSON supported at the moment of the project
 
 ```
-	{
-		id: 'A1A',
-		name: 'Name',
-		image: Icons.default, // restricted to default at the moment
-		information: {
-                  birth: 'date of birth', 
-                  death: 'date of death'
-		},
-		description: {
-                  details: [
-                    'A short description',
-                    'Another description',
-                    ...
-                  ]
-		}
+{
+	id: 'A1A',
+	name: 'Name',
+	image: Icons.default, // restricted to default at the moment
+	information: {
+        	birth: 'date of birth', 
+		death: 'date of death'
 	},
+	description: {
+	details: [
+		'A short description',
+		'Another description',
+		...
+		]
+	}
+	
+},
 ```
+### ID Belongings
 
-### ID
+- `A1A` - Abdulkhamidov
+- `B1A` - Khamidov
+- `C1A` - Sharipov
+- `D1A` - Valiev
 
-- Abdulkhamidov - A1A
-- Khamidov - B1A
-- Sharipov - C1A
-- Valiev - D1A
-
-### Sneak Peak
-
-![image](https://github.com/shohinsan/RootsRise/assets/22685770/15d77e20-5ab9-4c29-8ee4-2b31d8b96aea)
-
-### Future Work
-
-- [ ] Create and modify json file
-- [ ] Delete person out of json file
+### Roadmap
+- [x] Build family tree upon family related data
+- [ ] Improve linking to another person
+* Sometimes 1 family can part of 2 different IDs mentioned above
+- [ ] Integrate Database Systems
+* Clean up project from json files
+- [ ] Consider simple Admin panel if CRUD enabled
+* Reduces creating excessive json files
+* Allows non-tech people to perform CRUD 
