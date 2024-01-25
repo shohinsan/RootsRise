@@ -11,18 +11,11 @@ RootsRise is an ongoing and collaborative effort to map out the rich history of 
 	id: 'A1A',
 	name: 'Name',
 	image: Icons.default, // restricted to default at the moment
-	information: {
-        	birth: 'date of birth', 
-		death: 'date of death'
-	},
-	description: {
-	details: [
-		'A short description',
-		'Another description',
-		...
-		]
-	}
-	
+	description?: string | string[]; // Biography(optional)
+	birth?: string; // Dateformat: January 1, 2024
+	death?: string; // RIP
+	dependant?: string; // top level parent
+	children?: Base[]; // low level child
 },
 ```
 ### ID Belongings
