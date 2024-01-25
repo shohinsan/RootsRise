@@ -5,15 +5,25 @@
 	export let id: string = '';
 	export let name: string = '';
 	export let image: string = '';
+	export let description: string | string[] = '';
+	export let birth: string = '';
+	export let death: string = '';
 
-	export let information: Base['information'] = {};
-	export let description: Base['description'] = {};
+	const bio = ({ description }: Base = {}): string[] =>
+		Array.isArray(description) ? description : [description || ''];
 
-	const bio = ({ details }: Base['description'] = {}): string[] =>
-		Array.isArray(details) ? details : [details || ''];
-
-	const format = ({ birth, death, place }: Base['information'] = {}): string =>
-		`${birth || ''}${place ? ` (${place})` : ''}${death ? ` - ${death}` : ''}`;
+	const format = ({ birth, death }: Base = {}): string => {
+		if (birth && death) {
+			return `${birth} - ${death}`;
+		}
+		if (birth) {
+			return `Born ${birth}`;
+		}
+		if (death) {
+			return `Died ${death}`;
+		}
+		return '';
+	};
 </script>
 
 {#key id}
@@ -23,13 +33,13 @@
 		{/if}
 		<h1>{name}</h1>
 		<h2>
-			{format(information)}
+			{format({ birth, death })}
 		</h2>
 	</div>
 {/key}
 
 <div>
-	{#each bio(description) as paragraph}
+	{#each bio({ description }) as paragraph}
 		<p>{paragraph}</p>
 	{/each}
 </div>

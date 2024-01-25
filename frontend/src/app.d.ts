@@ -1,5 +1,3 @@
-// See https://kit.svelte.dev/docs/types#app
-// for information about these interfaces
 declare global {
 	namespace App {
 		interface Error {
@@ -9,9 +7,6 @@ declare global {
 		interface Locals {
 			locale?: string;
 		}
-
-		// interface PageData {}
-		// interface Platform {}
 	}
 
 	declare interface Document {
@@ -22,21 +17,12 @@ declare global {
 interface Base {
 	id?: string;
 	name?: string;
-	dependant?: string;
+	description?: string | string[];
+	birth?: string;
+	death?: string;
 	image?: string;
-	information?: InformationTypes;
-	description?: DescriptionType;
+	dependant?: string;
 	children?: Base[];
 }
 
-type InformationTypes = {
-	birth?: string;
-	death?: string;
-	place?: string;
-};
-
-type DescriptionType = {
-	details?: string | string[];
-};
-
-export { Document, Base, InformationTypes, DescriptionType };
+export { Document, Base };
