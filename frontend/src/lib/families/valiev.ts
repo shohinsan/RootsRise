@@ -139,8 +139,8 @@ const valiev = [
 		id: 'D5B',
 		name: 'Sharifjon Abdulkhamidov',
 		dependant: 'D5A',
-		birth: '1933',
-		death: '2023',
+		birth: 'October 10, 1934',
+		death: 'January 28, 2023',
 		description: ['A short description', 'Another description']
 	},
 	{
