@@ -1,24 +1,42 @@
 <script lang="ts">
-	import type { Base } from '$customTypes';
-	import { InfoTab, Tree } from '$components';
-	import { info, dataset } from '$stores';
-	import { utils } from '$lib';
-	import { abdulkhamidov, khamidov, sharipov, valiev } from '$lib/families';
+    import type { Base } from '$customTypes';
+    import { InfoTab, Tree } from '$components';
+    import { page } from '$app/stores';
+    import { info, dataset } from '$stores';
+    import { utils } from '$lib';
+    import { Loading } from '$lib/assets';
+    export let isLoading = true;
 
-	const data: Base[] = concatenate(abdulkhamidov, khamidov, sharipov, valiev);
+    $: data = $page.data.member;
 
-	dataset.set(utils.addedNew(data));
+    $: {
+        setTimeout(() => {
+            dataset.set(utils.addedNew(data));
+            isLoading = false; 
+        }, 2000); 
+    }
 
-	let activeTab: Base | undefined;
+    let activeTab: Base | undefined;
 
-	info.subscribe((value) => {
-		activeTab = value;
-	});
-
-	function concatenate(...arrays: Base[][]): Base[] {
-		return arrays.reduce((result, array) => [...result, ...array], []);
-	}
+    info.subscribe((value) => {
+        activeTab = value;
+    });
 </script>
 
-<Tree dataset={$dataset} />
-<InfoTab {...activeTab} />
+{#if isLoading}
+    <div class="loading-container">
+        <Loading />
+    </div>
+{:else}
+    <Tree dataset={$dataset} />
+    <InfoTab {...activeTab} />
+{/if}
+
+<style lang="scss">
+    .loading-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+</style>
