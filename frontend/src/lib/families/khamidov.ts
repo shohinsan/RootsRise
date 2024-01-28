@@ -15,28 +15,28 @@ const khamidov = [
 		name: 'Saidjon Khamidov',
 		dependant: 'B1B',
 		image: Icons.default,
-		birth: '1963',
+		birth: 'April 1, 1954',
 		description: ['A short description', 'Another description']
 	},
 	{
 		id: 'B1D',
 		name: 'Takhmina Khamidova',
 		dependant: 'B1B',
-		birth: '1760',
+		birth: 'August 28, 1978',
 		description: ['A short description', 'Another description']
 	},
 	{
 		id: 'B1E',
 		name: 'Nasiba Abdulkhamidova',
 		dependant: 'B1B',
-		birth: '1760',
+		birth: 'March 20, 1967',
 		description: ['A short description', 'Another description']
 	},
 	{
 		id: 'B1F',
 		name: 'Matluba Khamidova',
 		dependant: 'B1B',
-		birth: '1760',
+		birth: 'August 29, ',
 		description: ['A short description', 'Another description']
 	},
 	{
@@ -58,7 +58,7 @@ const khamidov = [
 		id: 'B2A',
 		name: '✶ Gulchehra Khamidova',
 		dependant: 'B1C',
-		birth: '1933',
+		birth: 'May 15, 1963',
 		description: ['A short description', 'Another description']
 	},
 	{
@@ -66,7 +66,7 @@ const khamidov = [
 		name: 'Nasim Khamidov',
 		dependant: 'B2A',
 		image: Icons.default,
-		birth: '1941',
+		birth: 'May 4, 1984',
 		description: ['A short description', 'Another description']
 	},
 	{
@@ -74,21 +74,21 @@ const khamidov = [
 		name: 'Mahbuba Khamidova',
 		dependant: 'B2A',
 		image: Icons.default,
-		birth: '1963',
+		birth: 'June 19, 1988',
 		description: ['A short description', 'Another description']
 	},
 	{
 		id: 'B2D',
 		name: 'Zulfiya Khamidova',
 		dependant: 'B2A',
-		birth: '1760',
+		birth: 'October 14, 1991',
 		description: ['A short description', 'Another description']
 	},
 	{
 		id: 'B2E',
 		name: 'Aziz Khamidov',
 		dependant: 'B2A',
-		birth: '1760',
+		birth: 'January 29, 1992',
 		description: ['A short description', 'Another description']
 	},
 	// ------------------------------------------------------------
@@ -112,7 +112,7 @@ const khamidov = [
 		name: 'Amila Khamidova',
 		dependant: 'B3A',
 		image: Icons.default,
-		birth: '1963',
+		birth: 'Janury 22, 2014',
 		description: ['A short description', 'Another description']
 	},
 	// ------------------------------------------------------------
@@ -184,7 +184,7 @@ const khamidov = [
 		name: 'Shirin Khamidova',
 		dependant: 'B6A',
 		image: Icons.default,
-		birth: '1963',
+		birth: 'August 14, 2007',
 		description: ['A short description', 'Another description']
 	},
 	{
@@ -200,7 +200,7 @@ const khamidov = [
 		id: 'B7A',
 		name: '✶ Abduvali Abdulkhamidov',
 		dependant: 'B1E',
-		birth: '1933',
+		birth: 'May 3, 1963',
 		description: ['A short description', 'Another description']
 	},
 	// ------------------------------------------------------------
@@ -452,9 +452,9 @@ const khamidov = [
 	// ------------------------------------------------------------
 	{
 		id: 'B16A',
-		name: '✶ Somon ...',
+		name: '✶ Somon Boboaliev',
 		dependant: 'B6B',
-		birth: '1933',
+		birth: 'November 27, 1997',
 		description: ['A short description', 'Another description']
 	}
 ];
