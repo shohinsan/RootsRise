@@ -83,4 +83,4 @@
 		font-size: 1em;
 		cursor: pointer;
 	}
-</style>
+ </style>

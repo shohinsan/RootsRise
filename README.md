@@ -33,4 +33,6 @@ RootsRise is an ongoing and collaborative effort to map out the rich history of 
 * Clean up project from json files
 - [ ] Consider simple Admin panel if CRUD enabled
 * Reduces creating excessive json files
-* Allows non-tech people to perform CRUD 
+* Allows non-tech people to perform CRUD
+- [ ] Implement i18n internationalization
+* Allow users to browse with a language of choice
