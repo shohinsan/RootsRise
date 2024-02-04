@@ -1,7 +1,7 @@
 <script>
 	export let width = 125;
 	export let height = 125;
-	export let fill = 'white';
+	export let fill = 'var(--color-loading-bg, white)';
 </script>
 
 <svg {width} {height} role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -37,6 +37,12 @@
 		10% {
 			animation-timing-function: cubic-bezier(0.53, 0, 0.61, 0.73);
 			r: 2px;
+		}
+	}
+
+	@media (prefers-color-scheme: light) {
+		.spinner {
+			--color-loading-bg: black;
 		}
 	}
 </style>

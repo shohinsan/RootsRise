@@ -7,6 +7,9 @@
   --color-accent: #ffe259;
   --color-bg: #242424;
   --color-text: #ffffffde;
+  --color-nav-bg: #333;
+  --color-nav-text: #ffffff;
+  --color-loading-bg: #f4f4f4;
   color: var(--color-text);
   background-color: var(--color-bg);
   font-synthesis: none;
@@ -70,7 +73,14 @@ li a {
     --color-text: #242424;
     --color-bg: #ffffff;
   }
+
+  nav {
+    --color-bg: #ffffff;
+  
+  }
 }
+
+
 
 @font-face {
   font-family: 'SFProFont';
