@@ -2,7 +2,7 @@
 	import '$styles/app.css';
 	import { onNavigate } from '$app/navigation';
 	import { Metadata } from '$components';
-	import { Logo } from '$assets';
+	import { Logo, Disabled } from '$assets';
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -25,7 +25,10 @@
 	</div>
 	<div>
 		<button>EN</button>
-		<button disabled>RU</button>
+		<button disabled>
+			<span class="dis-icon"><Disabled /></span>
+			RU
+		</button>
 	</div>
 </nav>
 
@@ -52,14 +55,12 @@
 		font-size: 2em;
 	}
 
-	/* Media query for screens with a maximum width of 768 pixels */
 	@media only screen and (max-width: 768px) {
 		nav a {
 			font-size: 1.5em;
 		}
 	}
 
-	/* Media query for screens with a maximum width of 480 pixels */
 	@media only screen and (max-width: 480px) {
 		nav a {
 			font-size: 1.2em;
@@ -82,5 +83,20 @@
 		user-select: none;
 		font-size: 1em;
 		cursor: pointer;
+		position: relative;
 	}
- </style>
+
+	.dis-icon {
+		display: none;
+		position: absolute;
+		top: 200%;
+		left: 0%;
+		transform: translate(-50%, -50%);
+		color: #999;
+		font-size: 1.5em;
+	}
+
+	button:hover .dis-icon {
+		display: inline;
+	}
+</style>
