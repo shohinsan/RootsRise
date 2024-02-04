@@ -37,7 +37,7 @@
 	  display: flex;
 	  align-items: center;
 	  padding: 10px 20px;
-	  background-color: #333;
+	  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
 	  position: sticky;
 	  top: 0;
 	  z-index: 1;
