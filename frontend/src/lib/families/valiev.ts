@@ -254,8 +254,57 @@ const valiev = [
 	// ------------------------------------------------------------
 	{
 		id: 'D14A',
-		name: '✶ Ruziboy ...',
+		name: '✶ Ruziboy Shermatov',
 		dependant: 'D10E',
+		birth: utils.unknown(new Date('1930')),
+		description: ['more info on khamidov page', 'Another description']
+	},
+	{
+		id: 'D14B',
+		name: 'Habiba Shermatova',
+		dependant: 'D14A',
+		birth: utils.unknown(new Date('1956')),
+		description: ['more info on khamidov page', 'Another description']
+	},
+	{
+		id: 'D14C',
+		name: 'Lola Shermatova',
+		dependant: 'D14A',
+		birth: utils.unknown(new Date('1960')),
+		description: ['more info on khamidov page', 'Another description']
+	},
+	{
+		id: 'D14D',
+		name: 'Sabohat Shermatova',
+		dependant: 'D14A',
+		birth: utils.unknown(new Date('1933')),
+		description: ['more info on khamidov page', 'Another description']
+	},
+	{
+		id: 'D14E',
+		name: 'Saodat Shermatova',
+		dependant: 'D14A',
+		birth: utils.unknown(new Date('1933')),
+		description: ['more info on khamidov page', 'Another description']
+	},
+	{
+		id: 'D14F',
+		name: 'Nasiba Abdulhamidova',
+		dependant: 'D14A',
+		birth: utils.unknown(new Date('1968')),
+		description: ['more info on khamidov page', 'Another description']
+	},
+	{
+		id: 'D14G',
+		name: 'Bahrom Shermatov',
+		dependant: 'D14A',
+		birth: utils.unknown(new Date('1933')),
+		description: ['more info on khamidov page', 'Another description']
+	},
+	{
+		id: 'D14H',
+		name: 'Maqsud Shermatov',
+		dependant: 'D14A',
 		birth: utils.unknown(new Date('1933')),
 		description: ['more info on khamidov page', 'Another description']
 	},
