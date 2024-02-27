@@ -36,7 +36,7 @@ const abdulkhamidov = [
 		id: 'A1F',
 		name: 'Jamshed Abdulkhamidov',
 		dependant: 'A1B',
-		birth: utils.unknown(new Date('1970')),
+		birth: utils.format(new Date('12-22-1967')),
 		description: ['A short description', 'Another description']
 	},
 	{
@@ -87,7 +87,7 @@ const abdulkhamidov = [
 		id: 'A3B',
 		name: 'Abdulhamid Abdulkhamidov',
 		dependant: 'A3A',
-		birth: utils.format(new Date('10-02-1991')),
+		birth: utils.format(new Date('10-02-1990')),
 		description: ['A short description', 'Another description']
 	},
 	{
@@ -145,21 +145,21 @@ const abdulkhamidov = [
 		id: 'A5A',
 		name: '✶ Nasiba Abdulhamidova',
 		dependant: 'A1F',
-		birth: utils.unknown(new Date('1933')),
+		birth: utils.format(new Date('07-17-1968')),
 		description: ['A short description', 'Another description']
 	},
 	{
 		id: 'A5B',
 		name: 'Osim Abdulhamidov',
 		dependant: 'A5A',
-		birth: utils.unknown(new Date('1933')),
+		birth: utils.unknown(new Date('1992')),
 		description: ['A short description', 'Another description']
 	},
 	{
 		id: 'A5C',
 		name: 'Oisha Abdulhamidov',
 		dependant: 'A5A',
-		birth: utils.unknown(new Date('1933')),
+		birth: utils.unknown(new Date('2005')),
 		description: ['A short description', 'Another description']
 	},
 	// ------------------------------------------------------------
@@ -233,14 +233,22 @@ const abdulkhamidov = [
 		id: 'A9A',
 		name: '✶ Nilufar Abdulkhamidova',
 		dependant: 'A5B',
-		birth: utils.unknown(new Date('1933')),
+		birth: utils.unknown(new Date('1996')),
 		description: ['A short description', 'Another description']
 	},
 	{
 		id: 'A9B',
 		name: 'Nushofarin Abdulkhamidova',
 		dependant: 'A9A',
-		birth: utils.unknown(new Date('1933')),
+		birth: utils.unknown(new Date('2020')),
+		description: ['A short description', 'Another description']
+	},
+	
+	{
+		id: 'A9C',
+		name: 'Asiya Abdulkhamidova',
+		dependant: 'A9A',
+		birth: utils.unknown(new Date('2022')),
 		description: ['A short description', 'Another description']
 	},
 	// ------------------------------------------------------------
